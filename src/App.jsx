@@ -31,7 +31,7 @@ const App = () => {
       id: 1, 
       title: 'KAIKA', 
       type: 'game', 
-      img: '/image/A1.png', 
+      img: './image/A1.png', 
       ytLink: 'https://www.youtube.com/watch?v=VIDEO_ID_1', 
       tech: 'Unity',
       desc: 'โปรเจคไฟนอลปี 3/1 เป็นเกม RPG-Roglike ตะลุยดันเจี้ยน ที่มีระบบ Multiplayer ด้วย'
@@ -40,7 +40,7 @@ const App = () => {
       id: 2, 
       title: 'Chronicles of the New World', 
       type: 'game', 
-      img: '/image/A2.png', 
+      img: './image/A2.png', 
       ytLink: 'https://www.youtube.com/watch?v=VIDEO_ID_2', 
       tech: 'C# / Unity',
       desc: 'เป็นเกมที่ทำเองซึ้ง มีระบบ Level class status Day/Night Cycle SeeSeason System'
@@ -49,25 +49,25 @@ const App = () => {
       id: 3, 
       title: 'Try not To get eat', 
       type: 'game', 
-      img: '/image/A3.png', 
+      img: './image/A3.png', 
       ytLink: 'https://www.youtube.com/watch?v=VIDEO_ID_3', 
       tech: 'C# / Unity',
       desc: 'เป็นเกม Roglike โดยที่ ได้รับบทเป็นนักวิทยาศาสตร์ ในห้องแลป อวกาศ'
     },
     { 
       id: 4, 
-      title: 'Prasadeak', 
+      title: 'Custom Tool Unity', 
       type: 'game', 
-      img: '/image/A4.png', 
-      ytLink: 'https://www.youtube.com/watch?v=VIDEO_ID_4', 
+      img: './image/A4.png', 
+      ytLink: 'https://youtu.be/VAB9yjNWXTo?si=pRaitvRvQoVoGnOP', 
       tech: 'C# / Unity',
-      desc: 'เป็นเกม ที่ ทำลง Horror GameJam โดยจะได้รับบทเป็น นักพรด'
+      desc: 'Tool ที่ใช้จัดการ อนิเมชั่น Event ให้ set override หลายๆ event ได้ใน หน้าต่างเดียว'
     },
     { 
       id: 5, 
       title: 'Amimator Rigging ', 
       type: '3d', 
-      img: '/image/A4.png', 
+      img: './image/A4.png', 
       ytLink: 'https://www.youtube.com/watch?v=VIDEO_ID_5', 
       tech: '3D / Maya',
       desc: 'เทคนิคการใช้ AdvanceSkeleton'
@@ -76,8 +76,8 @@ const App = () => {
       id: 6, 
       title: 'Retopology and Bake', 
       type: '3d', 
-      img: '/image/A4.png', 
-      ytLink: 'https://www.youtube.com/watch?v=VIDEO_ID_6', 
+      img: './image/A4.png', 
+      ytLink: 'https://youtu.be/4XzeA9RNhQ8?si=_PIwpYp3lO1aydLd', 
       tech: '3D / Maya / Blender',
       desc: 'การลดขนาด Tris โมเดล และ การ Bake'
     },
